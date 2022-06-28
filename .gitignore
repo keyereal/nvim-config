@@ -1,0 +1,7 @@
+*.bak
+*~
+*.~
+*.bak
+*.old
+plugin/packer_compiled.lua
+
