@@ -13,3 +13,5 @@ require'lspconfig'.pyright.setup{}
 -- https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion#coq_nvim
 require('coq_nvim') 
 
+-- * LUALINE *
+require('lualine').setup()

@@ -20,4 +20,12 @@ use 'neovim/nvim-lspconfig' -- Configurations for Nvim LSP
 use { 'ms-jpq/coq_nvim', branch = 'coq', run = 'python3 -m coq deps'}
 use { 'ms-jpq/coq.artifacts', branch = 'artifacts'}
 use { 'ms-jpq/coq.thirdparty', branch = '3p'}
+
+-- * LUALINE *
+-- https://github.com/nvim-lualine/lualine.nvim
+use {
+  'nvim-lualine/lualine.nvim',
+  requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+}
+
 end)

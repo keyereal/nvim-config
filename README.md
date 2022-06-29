@@ -26,7 +26,14 @@ https://github.com/ms-jpq/coq_nvim#lsp
 2.2 По инструкции настроить для coq_nvim:
 https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion#coq_nvim
 
-3. Полезно иногда смотреть состояние nvim командой :checkstatus
+3. LUALINE
+Установка https://github.com/nvim-lualine/lualine.nvim#packernvim
+Активация. Добавить в init.lua:
+```
+require('lualine').setup()
+```
+
+Полезно иногда смотреть состояние nvim командой :checkstatus
 Так же эта команда даёт полезные советы по устранению неполадок
 
 Колекция плагинов:
