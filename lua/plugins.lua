@@ -28,4 +28,22 @@ use {
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
 }
 
+-- * TABLINE: barbar.nvim *
+-- https://github.com/romgrk/barbar.nvim
+use {
+  'romgrk/barbar.nvim',
+  requires = {'kyazdani42/nvim-web-devicons'}
+}
+
+-- * FILE EXPLORER: NVIM-TREE *
+-- https://github.com/kyazdani42/nvim-tree.lua
+use {
+  'kyazdani42/nvim-tree.lua',
+  requires = {
+    'kyazdani42/nvim-web-devicons', -- optional, for file icons
+  }--,
+--  tag = 'nightly' -- optional, updated every week. (see issue #1193)
+}
+
+
 end)
