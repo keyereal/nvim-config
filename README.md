@@ -1,4 +1,4 @@
-** Использовать конфигурацию в init.lua **
+**Использовать конфигурацию в init.lua**
 
 Для удобства управления комбинациями клавиш в начало файла добавить:
 ```lua
@@ -6,14 +6,14 @@ local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 ```
 
-1. Установить менеджер плагинов [Packer](https://github.com/wbthomason/packer.nvim):
+### 1. Установить менеджер плагинов [Packer](https://github.com/wbthomason/packer.nvim):
 
 - После добавления нового плагина в конфигурацию запускаем команду nvim
 ```
 :PackerInstall
 ```
 
-2. Автодополнение ввода через [coq.nvim](https://github.com/ms-jpq/coq_nvim)
+### 2. Автодополнение ввода через [coq.nvim](https://github.com/ms-jpq/coq_nvim)
 
 - Настроить Language [Server Protocol](https://github.com/ms-jpq/coq_nvim#lsp)
 
@@ -33,14 +33,14 @@ local opts = { noremap = true, silent = true }
 ```
 - По [инструкции](https://github.com/neovim/nvim-lspconfig/wiki/Autocompletion#coq_nvim) настроить LSP для coq_nvim
 
-3. LUALINE
+### 3. LUALINE
 [Установка](https://github.com/nvim-lualine/lualine.nvim#packernvim)
 
 Активация с примером изменения темы. Добавить в init.lua:
 ```lua
 require('lualine').setup({options = { theme = 'material' }})
 ```
-4. TABLINE: BARBAR
+### 4. TABLINE: BARBAR
 [Установка](https://github.com/romgrk/barbar.nvim)
 
 Активация происходит автоматически
@@ -59,7 +59,7 @@ require('lualine').setup({options = { theme = 'material' }})
 require'barbar-config'
 ```
 
-5. NVIM TREE
+### 5. NVIM TREE
 [Установка](https://github.com/kyazdani42/nvim-tree.lua)
 
 Для отображения/скрытия по клавише F3 добавить в init.lua:
