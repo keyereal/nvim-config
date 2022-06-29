@@ -80,4 +80,10 @@ map('n', '<F3>', '<Cmd>NvimTreeToggle<CR>', opts)
 **Полезно иногда смотреть состояние nvim командой :checkstatus
 Так же эта команда даёт полезные советы по устранению неполадок**
 
-[Колекция плагинов](https://github.com/rockerBOO/awesome-neovim)
+### [Колекция плагинов](https://github.com/rockerBOO/awesome-neovim)
+
+### [Статья на Хабре](https://habr.com/ru/post/586808/) по переписыванию конфига с init.vim на init.lua
+
+**Итоговый внешний вид (для полноценного отображения иконок необходимо доустанавливать шрифты)**
+
+![Вариант со светлой темой](https://user-images.githubusercontent.com/81958676/176488041-f32970e6-16fe-4a98-9d37-9e4c1a14213e.png)
