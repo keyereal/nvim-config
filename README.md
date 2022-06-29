@@ -86,4 +86,8 @@ map('n', '<F3>', '<Cmd>NvimTreeToggle<CR>', opts)
 
 **Итоговый внешний вид ([для полноценного отображения иконок необходимо доустанавливать шрифты](https://github.com/kyazdani42/nvim-web-devicons))**
 
-![Вариант со светлой темой](https://user-images.githubusercontent.com/81958676/176488041-f32970e6-16fe-4a98-9d37-9e4c1a14213e.png)
+_Вариант со светлой темой и файловым менеджером_
+![Вариант со светлой темой и файловым менеджером](https://user-images.githubusercontent.com/81958676/176488041-f32970e6-16fe-4a98-9d37-9e4c1a14213e.png)
+
+_COQ_NVIM Python3 LSP_
+![COQ_NVIM Python3 LSP](https://user-images.githubusercontent.com/81958676/176490590-0f5cde16-25e6-4e41-8152-0467ee78ff53.png)
