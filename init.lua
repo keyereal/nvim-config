@@ -11,7 +11,9 @@ local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
 
 map('n', '<F8>', '<Cmd>BufferClose<CR>', opts)
-
+-- Navigation thru errors
+map('n', '<F5>', '<Cmd>:lua vim.diagnostic.goto_next()<CR>', opts)
+map('n', '<F6>', '<Cmd>:lua vim.diagnostic.goto_prev()<CR>', opts)
 
 -- ** PLUGINS **
 require('plugins')
