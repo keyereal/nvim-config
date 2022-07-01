@@ -1,13 +1,16 @@
 vim.api.nvim_set_option('syntax', 'on')
-vim.cmd('colorscheme morning')
+-- vim.cmd('colorscheme morning')
+vim.cmd('colorscheme evening')
 vim.cmd('set mouse+=a')
 vim.cmd('set number')
 --vim.api.nvim_set_option('ignorecase', true)
 vim.api.nvim_set_option('incsearch', true)
 
--- * MAPPINGS SETTINGS *
+-- * MAPPING SETTINGS *
 local map = vim.api.nvim_set_keymap
 local opts = { noremap = true, silent = true }
+
+map('n', '<F8>', '<Cmd>BufferClose<CR>', opts)
 
 
 -- ** PLUGINS **
